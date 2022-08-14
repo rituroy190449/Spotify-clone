@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>List of songs - By Ritu Roy</h1>
+            <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/covers10.jpg" alt="10"/>
+                <span class="songName">Let me Love You</span>
+                <span class="songListPlay"><span class = "timeStamp">05:34
+                <i id = "0" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/covers1.jpg" alt="1"/>
+                <span class = "songName">Baby I can't live without you</span>
+                <span class="songListPlay"><span class = "timeStamp">02:21
+                <i id = "1" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            <div class="songItem">
+                <img src=".\covers\covers2.jpg" alt="2"/>
+                <span class = "songName">Trap me in your heart</span>
+                <span class="songListPlay"><span class = "timeStamp">02:11
+                <i id = "2" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            <div class="songItem">
+                <img src=".\covers\covers3.jpg" alt="3"/>
+                <span class="songName">I am mad for you my love</span>
+                <span class="songListPlay"><span class = "timeStamp">01:24
+                <i id = "3" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            <div class="songItem">
+                <img src=".\covers\covers4.jpg" alt="4"/>
+                <span class="songName">Hello baby,how are you</span>
+                <span class="songListPlay"><span class = "timeStamp">02:54
+                <i id = "4" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            <div class="songItem">
+                <img src=".\covers\covers5.jpg" alt="5"/>
+                <span class="songName">You made me a believer</span>
+                <span class="songListPlay"><span class = "timeStamp">01:43
+                <i id = "5" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+            </div>
+            <div class="songItem">
+                <img src=".\covers\covers6.jpg" alt="6"/>
+                <span class ="songName">Get on the dance floor</span>
+                <span class="songListPlay"><span class = "timeStamp">03:12
+                <i id = "6" class="far songItemPlay fa-play-circle"></i>
+                </span>
+            </span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min ="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id ="previous"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id = "masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="playing" id="gif"> <span id="masterSongName">Let me love you</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9bcd16ca20.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
